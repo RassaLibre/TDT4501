@@ -1,0 +1,7 @@
+node_modules/
+app/library/
+dist/
+coverage/
+.sass-cache/
+app/components/
+app/build/

@@ -1,0 +1,2 @@
+goog.provide('App.Core');
+

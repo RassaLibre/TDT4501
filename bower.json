@@ -1,0 +1,25 @@
+{
+  "name": "Project",
+  "version": "0.0.1",
+  "authors": [
+    "@popplagip"
+  ],
+  "description": "School stuff",
+  "main": "?",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "react": "0.12.0",
+    "closure-library": "google/closure-library"
+  },
+  "devDependencies": {
+    "closure-compiler": "~0.2.6",
+    "react-externs": "https://github.com/steida/react-externs.git"
+  }
+}

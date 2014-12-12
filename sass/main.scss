@@ -1,0 +1,230 @@
+@import 'colors_dark';
+
+
+
+body, html{
+    background-color: $light_grey;
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+.fancy_input{
+    width: 100%;
+    border: 0px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.fancy_select{
+    width: 100%;
+    border: 0px solid black;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.pad{
+    padding: 20px;
+}
+
+.move_panel_button{
+    text-align: right;
+    margin: 0px;
+}
+
+.container{
+    z-index: 100;
+    padding: 20px;
+    position: relative;
+    width: 300px;
+    min-height: 100%;
+    color: $white;
+    border-right: 1px solid $white;
+    background-color: $dark_blue;
+    .form{
+        label{
+            display: block;
+        }
+        select{
+            width: 100%;
+        }
+    }
+    .glyphicon:HOVER{
+        color: $green;
+    }
+    .menu{
+        list-style-type: none;
+        margin-left: 0px;
+        margin-top: 10px;
+        padding: 0px;
+        li{
+            float: left;
+            width: 33.3333333%;
+            list-decoration: none;
+            text-align: center;
+            color: $control_panel_widget_background;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color: $dark_blue;
+        }
+        li.active{
+            background-color: $control_panel_widget_background;
+            color: $control_panel_widget_color;
+        }
+    }
+}
+
+.property_form, .endpoint_form{
+    margin-bottom: 15px;
+}
+
+h1{
+    margin-top: 0px;
+    text-align: center;
+}
+
+.dark_bg{
+    color: $control_panel_widget_color;
+    background-color: $control_panel_widget_background;
+}
+
+#canvas_envelope{
+    background-image: url($background);
+}
+
+#canvas{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.glyphicon{
+    color: $red;
+}
+
+/**
+*   FancyButton
+*/
+
+.btn{
+    background-color: $red;
+    color: $light_grey;
+    border: 0px solid $white;
+    padding: 10px;
+    width: 100%;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn:HOVER{
+    background-color: $green;
+}
+
+/**
+*   model
+*/
+
+.model{
+    color: $light_grey;
+    background-color: $dark_blue;
+    border: 1px solid $white;
+    padding: 20px;
+    position: absolute;
+    display: block;
+    top: 0px;
+    left: 0px;
+    z-index: 20;
+
+    h3{
+        padding-top: 0px;
+        margin-top: 0px;
+        text-align: center;
+        border-bottom: 1px dotted $white;
+    }
+
+    table{
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 10px;
+        tr{
+            td{
+                text-align: center;
+                padding-left: 10px;
+                padding-right: 10px;
+            }
+        }
+    }
+    .property_form, .endpoint_form{
+        padding-top: 20px;
+        margin-top: 20px;
+        border-top: 1px dotted white;
+        max-width: 200px;
+        font-size: 10px;
+        color: $control_panel_widget_color;
+    }
+    .model-icons-wrapper{
+        min-width: 100px;
+        width: 100%;
+        margin-top: 20px;
+        padding-top: 10px;
+        border-top: 1px dotted $white;
+        .model-icons{
+            float: left;
+            width: 50%;
+            a{
+                padding-right: 10px;
+            }
+        }
+        .model-options{
+            float: right;
+            width: 50%;
+            text-align: right;
+        }
+    }
+
+    .glyphicon{
+        color: $light_blue;
+    }
+    .glyphicon:HOVER{
+        color: $white;
+    }
+    .active{
+        color: $white;
+    }
+}
+
+/**
+*   Relation
+*/
+
+.relation{
+    z-index: 19;
+    color: $dark_blue;
+    border-bottom: 1px solid $white;
+    position: absolute;
+    text-align: center;
+    font-size: 10px;
+    -webkit-transform-origin: left bottom;
+}
+
+.area_input{
+    background: transparent;
+    border: 0px solid black;
+    color: $dark_grey;
+    text-align: center;
+    font-style: italic;
+}
+
+.json_text_area{
+    width: 100%;
+    border:0px solid black;
+    color: $dark_blue;
+    padding: 10px;
+}
+
+.margined{
+    margin-left: 15px;
+}
+
+.clear{
+    clear: both;
+}
